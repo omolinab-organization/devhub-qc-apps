@@ -7,7 +7,7 @@ metadata:
     This is a simple Nginx service
   links:
     - title: My Nginx Website
-      url: https://myapp.example.com
+      url: http://nginx-route-myapps.apps.cluster-ptwsh.ptwsh.sandbox3089.opentlc.com
   annotations:
     backstage.io/kubernetes-id: 'nginx-ex'
     backstage.io/kubernetes-namespace: myapps
