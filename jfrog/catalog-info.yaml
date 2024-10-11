@@ -10,7 +10,7 @@ metadata:
     - dpiplus
 spec:
   type: module
-  owner: Oscar Molina
+  owner: 'Oscar Molina'
   lifecycle: experimental
   system: dpiplus
   providesApis:
