@@ -14,7 +14,7 @@ metadata:
     - dpiplus
 spec:
   type: module
-  owner: user:default/omolinab
+  owner: default/omolinab
   lifecycle: experimental
   system: dpiplus
   providesApis:
