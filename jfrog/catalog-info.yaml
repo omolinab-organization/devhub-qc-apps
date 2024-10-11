@@ -9,13 +9,12 @@ metadata:
     backstage.io/kubernetes-id: ocp-prd2
     backstage.io/kubernetes-label-selector: 'app.kubernetes.io/name=dpitestbackstage3'
     prometheus.io/alert: all
-    argocd/app-selector: app-name=dpitestbackstage3
     jfrog-artifactory/image-name: 'dpitestbackstage3'
   tags:
     - dpiplus
 spec:
   type: module
-  owner: app_azure_backstage_developers
+  owner: omolinab
   lifecycle: experimental
   system: dpiplus
   providesApis:
