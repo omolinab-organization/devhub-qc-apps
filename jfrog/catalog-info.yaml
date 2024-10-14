@@ -15,6 +15,6 @@ spec:
   type: module
   lifecycle: experimental
   owner: team1
-  system: my-jfrog
+  system: my-jfrog-component
   providesApis:
     - my-jfrog-component-api
