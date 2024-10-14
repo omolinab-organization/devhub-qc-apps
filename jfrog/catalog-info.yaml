@@ -1,18 +1,20 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: dpitestbackstage3
-  title: dpitestbackstage3
-  description: dpitestbackstage3 component for DPI+
-  annotations:
-    jfrog-artifactory/image-name: 'dpitestbackstage3'
+  name: my-jfrog-component
+  title: My JFrog Component
+  description: A component that builds and stores artifacts in JFrog Artifactory.
   tags:
-    - dpiplus
+    - java
+    - maven
+    - jfrog
+    - artifacts
+  annotations:
+    jfrog-artifactory/image-name: 'my-jfrog-component3'
 spec:
   type: module
-  owner: 'Oscar Molina'
   lifecycle: experimental
-  system: dpiplus
+  owner: oscar-molina
+  system: my-jfrog
   providesApis:
-    - dpitestbackstage-api
-    
+    - my-jfrog-component-api
