@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: myjfrogapp
+  title: Example JFrog for RHDH
+  description: |
+    This is the example JFrog component for RHDH
+  annotations:
+    argocd/app-name: 'myjfrogapp'
+    backstage.io/kubernetes-id: 'myjfrogapp'
+    github.com/project-slug: myorg/myjfrogapp
+    quay.io/repository-slug: myorg/myjfrogapp
+    backstage.io/kubernetes-namespace: myjfrogapp
+    jfrog-artifactory/image-name: 'myjfrogapp'
+spec:
+  type: module
+  system: myjfrogapp
+  owner: team1
+  lifecycle: experimental
