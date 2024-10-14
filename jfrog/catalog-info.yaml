@@ -1,25 +1,10 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: Location
 metadata:
-  name: my-jfrog-component
-  title: My JFrog Component
-  description: A component that builds and stores artifacts in JFrog Artifactory.
-  tags:
-    - java
-    - maven
-    - jfrog
-    - artifacts
-  annotations:
-    argocd/app-name: 'my-jfrog'
-    backstage.io/kubernetes-id: 'my-jfrog'
-    github.com/project-slug: myorg/my-jfrog
-    quay.io/repository-slug: myorg/my-jfrog
-    backstage.io/kubernetes-namespace: my-jfrog
-    jfrog-artifactory/image-name: 'my-jfrog-component3'
+  name: my-jfrog-location
+  description: A collection of all the catalog entities in the 'my-jfrog' example app
 spec:
-  type: module
-  lifecycle: experimental
-  owner: team1
-  system: my-jfrog
-  providesApis:
-    - my-jfrog-component-api
+  targets:
+    - ./group.yaml
+    - ./system.yaml
+    - ./myapp.yaml
