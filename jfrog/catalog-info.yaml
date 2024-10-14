@@ -5,6 +5,5 @@ metadata:
   description: A collection of all the catalog entities in the 'my-jfrog' example app
 spec:
   targets:
-    - ./group.yaml
     - ./system.yaml
     - ./myjfrogapp.yaml
