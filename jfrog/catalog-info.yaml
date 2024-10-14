@@ -14,7 +14,7 @@ metadata:
 spec:
   type: module
   lifecycle: experimental
-  owner: oscar-molina
+  owner: team1
   system: my-jfrog
   providesApis:
     - my-jfrog-component-api
