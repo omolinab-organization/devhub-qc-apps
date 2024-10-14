@@ -7,4 +7,4 @@ spec:
   targets:
     - ./group.yaml
     - ./system.yaml
-    - ./myapp.yaml
+    - ./myjfrogapp.yaml
