@@ -1,13 +1,19 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: otobs
-  description: An example of a Backstage application.
-  # Example for optional annotations
-  # annotations:
-  #   github.com/project-slug: backstage/backstage
-  #   backstage.io/techdocs-ref: dir:.
+  name: myjfrogapp
+  title: Example JFrog for RHDH
+  description: |
+    This is the example JFrog component for RHDH
+  annotations:
+    argocd/app-name: 'myjfrogapp'
+    backstage.io/kubernetes-id: 'myjfrogapp'
+    backstage.io/kubernetes-namespace: devhub-omolinab
+    github.com/project-slug: myorg/myjfrogapp
+    quay.io/repository-slug: openshift/okd
+    jfrog-artifactory/image-name: 'hello-world-maven-remote-cache/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.pom'
 spec:
-  type: website
+  type: module
+  system: myjfrogapp
   owner: team1
   lifecycle: experimental
