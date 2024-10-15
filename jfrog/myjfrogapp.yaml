@@ -8,9 +8,9 @@ metadata:
   annotations:
     argocd/app-name: 'myjfrogapp'
     backstage.io/kubernetes-id: 'myjfrogapp'
+    backstage.io/kubernetes-namespace: devhub-omolinab
     github.com/project-slug: myorg/myjfrogapp
-    quay.io/repository-slug: myorg/myjfrogapp
-    backstage.io/kubernetes-namespace: myjfrogapp
+    quay.io/repository-slug: openshift/okd
     jfrog-artifactory/image-name: 'myjfrogapp'
 spec:
   type: module
