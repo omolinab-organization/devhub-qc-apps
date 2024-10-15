@@ -13,5 +13,5 @@ metadata:
 spec:
   type: website
   system: myapp
-  owner: frontend-team
+  owner: team1
   lifecycle: production
