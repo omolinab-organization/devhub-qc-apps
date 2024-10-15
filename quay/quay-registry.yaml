@@ -15,3 +15,11 @@ spec:
   system: myapp
   owner: team1
   lifecycle: production
+--
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: myapp
+  title: myapp System
+spec:
+  owner: team1
