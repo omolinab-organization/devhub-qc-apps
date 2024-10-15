@@ -13,5 +13,5 @@ metadata:
 spec:
   type: pipeline
   system: myapp
-  owner: frontend-team
+  owner: team1
   lifecycle: production
