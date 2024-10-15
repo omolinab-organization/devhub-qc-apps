@@ -10,7 +10,7 @@ metadata:
       url: http://nginx-route-devhub-omolinab.apps.cndsno1.cee.ral3.lab.eng.rdu2.redhat.com
   annotations:
     backstage.io/kubernetes-id: 'nginx-ex'
-    backstage.io/kubernetes-namespace: myapps
+    backstage.io/kubernetes-namespace: devhub-omolinab
     backstage.io/kubernetes-label-selector: 'app=nginx'
 spec:
   type: service
