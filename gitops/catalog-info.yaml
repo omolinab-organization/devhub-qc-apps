@@ -7,11 +7,11 @@ metadata:
     This is a simple spring app deployed by OCP GitOps
   annotations:
     backstage.io/kubernetes-id: 'spring-petclinic'
-    backstage.io/kubernetes-namespace: myapps
+    backstage.io/kubernetes-namespace: devhub-omolinab
     backstage.io/kubernetes-label-selector: 'app=spring-petclinic'
     argocd/app-selector: 'app=spring-petclinic'
 spec:
   type: service
   system: myapp
-  owner: frontend-team
+  owner: team1
   lifecycle: production
