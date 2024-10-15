@@ -14,7 +14,7 @@ spec:
     directory:
       recurse: true
     path: petclinic
-    repoURL: https://github.com/RedHatQuickCourses/devhub-qc-apps.git
+    repoURL: https://github.com/omolinab-organization/devhub-qc-apps.git
     targetRevision: HEAD
   syncPolicy:
     syncOptions:
