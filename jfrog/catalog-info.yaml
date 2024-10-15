@@ -6,4 +6,4 @@ metadata:
 spec:
   targets:
     - ./system.yaml
-    - ./myjfrogapp.yaml
+    - ./jfrog_test.yaml
